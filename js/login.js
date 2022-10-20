@@ -3,6 +3,9 @@
     const inputPassword = document.getElementById('password').value;
 
     if(inputEmail === 'aniksarkar0177@gmail.com' && inputPassword === '01779087'){
-        console.log('login succese');
+        window.location.href= "http://127.0.0.1:5500/js/bank.html";
+    }
+    else{
+        alert("Please check your email & password");
     }
  })
